@@ -1,0 +1,60 @@
+.marginleft{
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+  .moinmargin{
+    margin-right: 0px;
+    line-height: 2rem;
+    
+  }
+  .photoabsolute{
+    padding: 0;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: solid 15px #F24516;
+    position: absolute;
+    right: 15%;
+    top: 43%;
+  }
+  .hrcenter{
+    width: 5%;
+    margin-left: 49%;
+    display: flex;
+    align-items: center;
+    border-color: #f24516;
+  }
+  
+  @media screen and (max-width: 1280px)
+  
+  {
+    .photoabsolute{
+      display: none;
+  
+    }
+    
+  }
+  body{
+    overflow-x: hidden  !important;
+  }
+  
+  .beauté{
+    color: #F24516;
+  }
+  
+  .btnsavoirplus{
+    margin: 5% 0% 5% 28%;
+  }
+
+  
+ .iconereseaux{
+    font-size: 2rem;
+   }
+  
+   .phototest{
+     margin-bottom: 5%;
+   }
+   .marginright{
+     margin-right: 5%;
+   }

@@ -10,15 +10,8 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-/* 
- .phototest{
-   z-index: 20;
-   width: 50%;
-   height: 50%;
- } */
- .phototest{
-   margin-bottom: 5%;
- }
+
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -6214,7 +6207,17 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background: linear-gradient(0deg, rgb(92, 46, 32) 10%, rgba(0, 0, 0, 0.794) 100%) !important;
+/* background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,0.9836309523809523) 100%) !important; */
+background: radial-gradient(circle, rgba(21, 21, 22, 0.804) 0%, rgb(14, 15, 15) 100%);
+color: white;
+}
+
+.titreabout{
+  text-transform: uppercase;
+
+}
+.marginbottom{
+  margin-bottom: 10%;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,

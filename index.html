@@ -23,7 +23,11 @@
   <!-- Theme CSS - Includes Bootstrap -->
   <link href="css/creative.css" rel="stylesheet">
 
+    <!-- link css perso -->
+  <link rel="stylesheet" href="css/style.css">
+
 </head>
+
 
 <body id="page-top">
 
@@ -40,13 +44,13 @@
             <a class="nav-link js-scroll-trigger" href="#about">A propos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">Mes coméptences</a>
+            <a class="nav-link js-scroll-trigger" href="#services">Mes compétences</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            <a class="nav-link js-scroll-trigger" href="#contacte">Contact</a>
           </li>
         </ul>
       </div>
@@ -60,8 +64,15 @@
         <div class="col-lg-10 align-self-end">
           <h1 class="text-uppercase text-white font-weight-bold">Bryan Carbonnier</h1>
           <h2 class="text-uppercase text-white font-weight-bold">Developpeur Web</h2>
-          <hr class="divider my-4">
+
+          <a class="iconereseaux col-6" href="https://www.facebook.com/BryanCarbonnier.dev" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a class="iconereseaux col-5" href="https://www.linkedin.com/in/bryan-carbonnier/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a class="iconereseaux col-5" href="https://twitter.com/bryancarbonnier" target="_blank"><i class="fab fa-twitter"></i></a>
+
+        <hr class="divider my-4">
+
         </div>
+        
         <div class="col-lg-8 align-self-baseline">
          
           <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">En savoir plus !</a>
@@ -71,64 +82,79 @@
   </header>
 
   <!-- About Section -->
-  <section class="page-section bg-primary" id="about">
-    <div class="container">
-      <div class="row justify-content-around">
-        <div class="col-lg-12 text-center">
-          <h2 class="text-white mt-0">Apprenez à me connaitre !  </h2>
-          <hr class="divider light my-4">
-          
-          <div class="row ">
-            <p class="col-6 text-white-50 ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias mollitia delectus labore harum, odio consectetur fuga doloribus at perspiciatis accusamus earum exercitationem cum libero sit id recusandae vel deleniti a!
-            Passionné depuis tout petit par les jeux vidéos 
-          
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit culpa molestiae ut, porro esse voluptatum minus repellat sint error? Natus officiis nesciunt maxime deleniti, est eligendi amet repellat excepturi autem!
-         <br><br>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore mollitia fuga blanditiis? Mollitia deserunt ut rem exercitationem inventore sint aliquam modi, unde repellendus quaerat deleniti maiores officiis optio fugiat sequi.</p>
-            
-          <img class=" phototest col-6 "src="img/phototest.jpg" alt="une photo de moi">
-          </div>
+  <section class="row justify-content-between page-section bg-primary text-left moinmargin position-relative " id="about">
+  
+      <h2 class="col-12 titreabout text-center">à propos </h2>
+      <hr class="hrcenter divider" >
 
-          <a class="col-lg-6 btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
-        </div>
-      </div>
-    </div>
+      
+      <div class="col-11 col-xl-6 col-sm-12 justify-content-center marginleft">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Parcours scolaire</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Quel développeur je suis ?</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">l'entreprise de mes rêves ?</a>
+            </li>
+        </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+               <p> Passionné de <span class="beauté"> technologies </span> et de jeux vidéo depuis tout petit, et sortie d'un bac pro SEN et d'un début de DUT GE2I avant de 
+                travaillé quelques temps dans l'industrie. Je voulais retrouver mon premier amour : <span class="beauté">l'informatique </span>, j'ai donc pris ma vie en main 
+              afin de me former au <span class="beauté"> developpement web</span> </p>
+            </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <p>D'un naturel <span class="beauté"> curieux et joyeux</span>, je me vois travaillé dans une équipe, prendre le rôle d'une éponge, aborbant toutes les <span class="beauté"> connaissances </span> de mes collegues
+                    afin de devenir un véritable <span class="beauté">couteau suisse</span> prêt à aider dans n'importe qu'elles situation et sur tout types de sujets.
+                  </p>
+            </div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                <p>Je recherche une entreprise, doté d'une bonne <span class="beauté"> ambiance</span> dans une équipe, prête à me faire <span class="beauté"> confiance</span> et m'accompagné dans mon <span class="beauté"> accumulation d'experiences</span>
+                    et de compétences,pour que je puisse en retour moi aussi les <span class="beauté">accompagner dans leurs développement </span>
+                </p>      
+            </div>
+
+          
+          </div>
+        </div>   
+         <img class="col-3 photoabsolute" position-absolute src="img/phototest.JPG" alt="une photo de moi">
+        
   </section>
+
 
   <!-- Services Section -->
   <section class="page-section" id="services">
     <div class="container">
-      <h2 class="text-center mt-0">At Your Service</h2>
+      <h2 class="text-center mt-0 titreabout">Mes compétences </h2>
       <hr class="divider my-4">
       <div class="row">
-        <div class="col-lg-3 col-md-6 text-center">
+        <div class="col-lg-4 col-md-6 text-center">
           <div class="mt-5">
             <i class="fas fa-4x fa-gem text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Sturdy Themes</h3>
-            <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
+            <h3 class="h4 mb-2">Methodes agiles</h3>
+            <p class="text-muted mb-0">Souplesse, adaptabilité, priorités. </p>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 text-center">
+        <div class="col-lg-4 col-md-6 text-center">
           <div class="mt-5">
             <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Up to Date</h3>
-            <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
+            <h3 class="h4 mb-2">Developpement WEB</h3>
+            <p class="text-muted mb-0">Comprendre, imaginé, proposé, créer, intégré.</p>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 text-center">
+        <div class="col-lg-4 col-md-6 text-center">
           <div class="mt-5">
             <i class="fas fa-4x fa-globe text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Ready to Publish</h3>
-            <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p>
+            <h3 class="h4 mb-2">Constante formation</h3>
+            <p class="text-muted mb-0">Autonomie, auto-formation certification. </p>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-heart text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Made with Love</h3>
-            <p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
-          </div>
+        
         </div>
       </div>
     </div>
@@ -136,117 +162,76 @@
 
   <!-- Portfolio Section -->
   <section id="portfolio">
-    <div class="container-fluid p-0">
-      <div class="row no-gutters">
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
+      <h2 class="text-center mt-0 titreabout">Mes projets</h2>
+      <hr class="hrcenter divider" >
+    <div class="container-fluid ">
+      <div class="row  no-gutters">
+        <div class="col-lg-4 col-sm-6 ">
+          <a class="portfolio-box" href="img/portfolio/fullsize/1.png">
+            <img class="img-fluid" src="img/portfolio/thumbnails/1.png" alt="image de projet vitrine">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
-                Category
+                Integration Web
               </div>
+             
               <div class="project-name">
-                Project Name
+                Site vitrine horloger
               </div>
             </div>
-          </a>
+          </a> 
+          <a class="col-12 col-xl-4 offset-xl-2 btn btn-primary btn-xl js-scroll-trigger btnsavoirplus" href="#about">En savoir plus !</a>
         </div>
+        
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
+          <a class="portfolio-box" href="img/portfolio/fullsize/2.png">
+            <img class="img-fluid" src="img/portfolio/thumbnails/2.png" alt="image de projet jeux JS">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
-                Category
+                Mini jeux JS
               </div>
               <div class="project-name">
-                Project Name
+                Punta click
               </div>
             </div>
           </a>
+          <a class="col-12 col-xl-4 btn btn-primary btn-xl js-scroll-trigger btnsavoirplus" href="#about">En savoir plus !</a>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
+          <a class="portfolio-box" href="img/portfolio/fullsize/3.png">
+            <img class="img-fluid" src="img/portfolio/thumbnails/3.png" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
-                Category
+                Ancien portfolio
               </div>
               <div class="project-name">
-                Project Name
+                Portfolio V1
               </div>
             </div>
           </a>
+          <a class="col-12 col-xl-4 btn btn-primary btn-xl js-scroll-trigger btnsavoirplus" href="#about">En savoir plus !</a>
         </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
-            <div class="portfolio-box-caption p-3">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
     </div>
-  </section>
 
-  <!-- Call to Action Section -->
-  <section class="page-section bg-dark text-white">
-    <div class="container text-center">
-      <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-      <a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a>
-    </div>
   </section>
-
   <!-- Contact Section -->
-  <section class="page-section" id="contact">
+  <section class="page-section" id="contacte">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8 text-center">
-          <h2 class="mt-0">Let's Get In Touch!</h2>
+          <h2 class="mt-0">Contactez moi </h2>
           <hr class="divider my-4">
-          <p class="text-muted mb-5">Ready to start your next project with us? Give us a call or send us an email and we will get back to you as soon as possible!</p>
+          <p class="text-muted mb-5">Vous avez un projet sur lequel vous souhaitez travailler ? une offre à me proposé? n'hésitez pas !</p>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
           <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
-          <div>+1 (202) 555-0149</div>
+          <div>06-50-44-72-73</div>
         </div>
         <div class="col-lg-4 mr-auto text-center">
           <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
           <!-- Make sure to change the email address in anchor text AND the link below! -->
-          <a class="d-block" href="mailto:contact@yourwebsite.com">contact@yourwebsite.com</a>
+          <a class="d-block" href="mailto:contact@yourwebsite.com">Bry.carbonnier@gmail.com</a>
         </div>
       </div>
     </div>
@@ -255,7 +240,7 @@
   <!-- Footer -->
   <footer class="bg-light py-5">
     <div class="container">
-      <div class="small text-center text-muted">Copyright &copy; 2019 - Start Bootstrap</div>
+      <div class="small text-center text-muted">Copyright &copy; 2019 - Bryan Carbonnier</div>
     </div>
   </footer>
 

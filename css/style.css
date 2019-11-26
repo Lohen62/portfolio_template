@@ -2,12 +2,14 @@
     margin-left: 5%;
     margin-top: 5%;
   }
-  .moinmargin{
+
+.moinmargin{
     margin-right: 0px;
     line-height: 2rem;
     
   }
-  .photoabsolute{
+
+.photoabsolute{
     padding: 0;
     height: 300px;
     width: 300px;
@@ -18,7 +20,8 @@
     right: 15%;
     top: 43%;
   }
-  .hrcenter{
+
+.hrcenter{
     width: 5%;
     margin-left: 49%;
     display: flex;
@@ -26,35 +29,40 @@
     border-color: #f24516;
   }
   
-  @media screen and (max-width: 1280px)
+@media screen and (max-width: 1280px)
   
   {
-    .photoabsolute{
+.photoabsolute{
       display: none;
   
     }
     
   }
-  body{
+body{
     overflow-x: hidden  !important;
   }
   
-  .beauté{
+.beauté{
     color: #F24516;
   }
   
-  .btnsavoirplus{
+.btnsavoirplus{
     margin: 5% 0% 5% 28%;
   }
-
   
- .iconereseaux{
+.iconereseaux{
     font-size: 2rem;
    }
   
-   .phototest{
+.phototest{
      margin-bottom: 5%;
    }
-   .marginright{
+.marginright{
      margin-right: 5%;
    }
+
+.logonav{
+    width: 8%;
+    position: relative;
+    left: -5%;
+}

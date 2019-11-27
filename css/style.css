@@ -75,5 +75,11 @@ body{
   .btnsavoirplus{
     margin: 5% 0% 5% 0%;
   }
+
+  .cvdl{
+    position: absolute;
+    bottom: -20%;
+    left:30%
+  }
 }
   

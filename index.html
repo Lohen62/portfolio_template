@@ -124,7 +124,7 @@
           </div>
         </div>   
          <img class="col-3 photoabsolute" position-absolute src="img/phototest.JPG" alt="une photo de moi">
-        
+
   </section>
 
 
@@ -163,13 +163,14 @@
 
   <!-- Portfolio Section -->
   <section id="portfolio">
+      
       <h2 class="text-center mt-0 titreabout">Mes projets</h2>
       <hr class="hrcenter divider" >
     <div class="container-fluid ">
       <div class="row  no-gutters">
         <div class="col-lg-4 col-sm-6 ">
-          <a class="portfolio-box" href="img/portfolio/fullsize/1.png">
-            <img class="img-fluid" src="img/portfolio/thumbnails/1.png" alt="image de projet vitrine">
+          <a class="portfolio-box" href="./img/portfolio/fullsize/1.png">
+            <img class="img-fluid" src="./img/portfolio/thumbnails/1.png" alt="image de projet vitrine">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
                 Integration Web
@@ -180,12 +181,16 @@
               </div>
             </div>
           </a> 
-          <a class="col-12 col-xl-4 offset-xl-2 btn btn-primary btn-xl js-scroll-trigger btnsavoirplus" href="#about">En savoir plus !</a>
+            <!-- fait en form car il y as des interference avec bootstrap. il détécte les lien a comme des img à ouvrir  -->
+
+          <form target="_blank" action="projets/Exo_vitrine/accueil.html">
+          <input class="col-12 col-xl-4 btn btn-primary btn-xl js-scroll-trigger btnsavoirplus" type="submit" value="En savoir plus ">
+        </form>
         </div>
         
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/2.png">
-            <img class="img-fluid" src="img/portfolio/thumbnails/2.png" alt="image de projet jeux JS">
+          <a class="portfolio-box" href="./img/portfolio/fullsize/2.png">
+            <img class="img-fluid" src="./img/portfolio/thumbnails/2.png" alt="image de projet jeux JS">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
                 Mini jeux JS
@@ -195,10 +200,14 @@
               </div>
             </div>
           </a>
-          <a class="col-12 col-xl-4 btn btn-primary btn-xl js-scroll-trigger btnsavoirplus" href="#about">En savoir plus !</a>
+          <!-- fait en form car il y as des interference avec bootstrap. il détécte les lien a comme des img à ouvrir  -->
+          <form target="_blank"  action="./projets/pountaclick/index.html">
+            <input class="col-12 col-xl-4 btn btn-primary btn-xl js-scroll-trigger btnsavoirplus" type="submit" value="En savoir plus ">
+          </form>
+
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/3.png">
+          <a class="portfolio-box" href="./img/portfolio/fullsize/3.png">
             <img class="img-fluid" src="img/portfolio/thumbnails/3.png" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
@@ -209,7 +218,11 @@
               </div>
             </div>
           </a>
-          <a class="col-12 col-xl-4 btn btn-primary btn-xl js-scroll-trigger btnsavoirplus" href="#about">En savoir plus !</a>
+          <!-- fait en form car il y as des interference avec bootstrap. il détécte les lien a comme des img à ouvrir  -->
+          <form target="_blank" 
+            action="./projets/porte_folio/index.html">
+            <input class="col-12 col-xl-4 btn btn-primary btn-xl js-scroll-trigger btnsavoirplus"  type="submit" value="En savoir plus ">
+          </form>
         </div>
     </div>
 

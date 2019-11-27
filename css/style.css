@@ -28,14 +28,7 @@
     align-items: center;
     border-color: #f24516;
   }
-  
-
-  
-.photoabsolute{
-      display: none;
-  
-    }
-    
+   
   
 body{
     overflow-x: hidden  !important;
@@ -69,6 +62,11 @@ body{
 
 
 @media screen and (max-width: 1280px){
+  .photoabsolute{
+    display: none;
+
+  }
+  
   .btnsavoirplus{
     margin: 5% 0% 5% 0%;
   }
